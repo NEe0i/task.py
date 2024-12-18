@@ -1,40 +1,46 @@
-a = int(input("Введите число: "))
-aa = a
-ab = a
-av = a
-ag = a
-ad = a
-ae = a
+a = int(input("Введите число a: "))
 
-aa2 = a * a
-aa3 = a * aa2
-aa5 = aa2 * aa3
-aa10 = aa5 * aa5
+a2 = a * a
+a3 = a2 * a
+a4 = a2 * a2
+a8 = a4 * a4
+a10 = a8 * a2
+print(f"a) a3  = {a3} a10 = {a10}")
 
-print("a)", aa3, aa10)
+a2 = a * a
+a4 = a2 * a2
+a8 = a4 * a4
+a16 = a8 * a8
+a20 = a16 * a4
+print(f"б) a4  = {a4} a20 = {a20}")
 
-ab2 = a * a
-ab4 = ab2 * ab2
-ab5 = ab4 * a
-ab10 = ab5 * ab5
-ab20 = ab10 * ab10
+a2 = a * a
+a3 = a2 * a
+a5 = a3 * a2
+a10 = a5 * a5
+a13 = a10 * a3
+print(f"в) a5  = {a5} a13 = {a13}")
 
-print("б)", ab4, ab20)
+a2 = a * a
+a4 = a2 * a2
+a5 = a4 * a
+a10 = a5 * a5
+a15 = a10 * a5
+a19 = a15 * a4
+print(f"г) a5  = {a5} a19 = {a19}")
 
-av2 = a * a
-av3 = av2 * a
-av4 = av2 * av2
-av5 = av4 * a
-av10 = av5 * av5
-av13 = av10 * av3
+a2 = a * a
+a4 = a2 * a2
+a5 = a4 * a
+a10 = a5 * a5
+a15 = a10 * a5
+a17 = a15 * a2
+print(f"д) a2  = {a2} a5  = {a5} a17 = {a17}")
 
-print("в)", av5, av13)
-
-ag2 = a * a
-ag4 = ag2 * ag2
-ag5 = ag4 * a
-ag9 = ag4 * ag5
-ag10 = ag9 * a
-ag19 = ag10 * ag9
-
-print("г)", ag5, ag19)
+a2 = a * a
+a4 = a2 * a2
+a8 = a4 * a4
+a12 = a8 * a4
+a24 = a12 * a12
+a28 = a24 * a4
+print(f"д) a4  = {a4} a12  = {a12} a28 = {a28}")
